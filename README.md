@@ -5,7 +5,7 @@ This is the official implementation of paper "Rethinking Collaborative Perceptio
 
 ## Main idea
 **Abstract:**  Collaboration through the sharing of semantic information belongs to one of the key enablers to enhance perception capabilities. However, existing collaborative perception methods tend to focus solely on the spatial features of semantic information, while neglecte the importance of temporal dimension in collaborator selection and semantic information fusion, thus incurring substantial performance degradation. In this article, we propose a novel collaborative perception framework, IoSI-CP, to take account of the importance of semantic information (IoSI) in both temporal and spatial dimensions. 
-![IoSI-CP](./images/Intro.png)
+![IoSI-CP](./images/IoSICP.png)
 ## Features
 
 - Dataset Support
