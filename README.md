@@ -14,8 +14,7 @@ This is the official implementation of paper "Rethinking Collaborative Perceptio
   - [x] V2XSet
   - [x] OPV2V
 
-- SOTA collaborative perception method support
-    - [x] [IoSI-CP]
+- SOTA collaborative perception method we compared
     - [x] [V2X-ViT [ECCV2022]](https://arxiv.org/abs/2203.10638)
     - [x] [Where2comm [Neurips2022]](https://arxiv.org/abs/2209.12836)
     - [x] [V2VNet [ECCV2020]](https://arxiv.org/abs/2008.07519)
@@ -29,7 +28,7 @@ If you find this code useful in your research then please cite
 
 ```
 @inproceedings{IoSI-CP,
-  author    = {Yuntao Liu, Qian Huang, Rongpeng Li, Zhifeng Zhao, Yongdong Zhu, and Honggang Zhang},
+  author    = {Yuntao Liu, Qian Huang, Rongpeng Li, Xianfu Chen, Zhifeng Zhao, Shuyuan Zhao, Yongdong Zhu and Honggang Zhang},
   title     = {Rethinking Collaborative Perception from the Spatial-Temporal Importance of Semantic Information},
   month     = {May},  
   year      = {2023}
