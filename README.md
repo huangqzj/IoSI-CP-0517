@@ -4,7 +4,7 @@ This is the official implementation of paper "Rethinking Collaborative Perceptio
  Zhejiang University, Zhejiang Lab
 
 ## Main idea
-**Abstract:**  Collaboration through the sharing of semantic information belongs to one of the key enablers to enhance perception capabilities. However, existing collaborative perception methods tend to focus solely on the spatial features of semantic information, while neglecte the importance of temporal dimension in collaborator selection and semantic information fusion, thus incurring substantial performance degradation. In this article, we propose a novel collaborative perception framework, IoSI-CP, to take account of the importance of semantic information (IoSI) in both temporal and spatial dimensions. 
+**Abstract:**  collaborative perception methods tend to focus solely on the spatial features of semantic information, while neglecting the importance of temporal dimension in collaborator selection and semantic information fusion, thus incurring performance degradation. In this article, we propose a novel collaborative perception framework, IoSI-CP, which takes into account the importance of semantic information (IoSI) from both temporal and spatial dimensions. Specifically, we develop an IoSI-based collaborator selection method that effectively identifies advantageous collaborators while excluding those that bring negative benefits. Moreover, we present a semantic information fusion algorithm called HPHA (Historical Prior Hybrid Attention), which integrates a multi-scale transformer module and a short-term attention module to capture IoSI from spatial and temporal dimensions and assign varying weights for efficient aggregation.
 
 ![IoSI-CP](./images/IoSICP.png)
 
@@ -86,7 +86,7 @@ Of course, you can also directly download the whole zip file, e.g. train.zip
 After downloading is finished, please make the file structured as following:
 
 ```sh
-IoSI-CP # root of your IoSI-CP
+IoSI-CP # root of IoSI-CP
 ├── v2xset # the downloaded v2xset data
 │   ├── train
 │   ├── validate
@@ -127,7 +127,7 @@ The evaluation results  will be saved in the model directory.
 ## Acknowledgements
 Thank for the excellent cooperative perception codebases [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD).
 
-Thank for the excellent cooperative perception datasets [V2XSet],[OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) .
+Thank for the excellent cooperative perception datasets V2XSet,[OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/) .
 
 ## Relevant Projects
 
@@ -135,12 +135,6 @@ Thanks for the insightful previous works in cooperative perception field.
 
 **V2vnet: Vehicle-to-vehicle communication for joint perception and prediction** 
 *ECCV20* [[Paper]](https://arxiv.org/abs/2008.07519) 
-
-**Learning Distilled Collaboration Graph for Multi-Agent Perception** 
-*Neurips21* [[Paper]](https://arxiv.org/abs/2111.00643) [[Code]](https://github.com/DerrickXuNu/OpenCOOD)
-
-**V2X-Sim: A Virtual Collaborative Perception Dataset and Benchmark for Autonomous Driving** 
-*RAL21* [[Paper]](https://arxiv.org/abs/2111.00643) [[Website]](https://ai4ce.github.io/V2X-Sim/)[[Code]](https://github.com/ai4ce/V2X-Sim)
 
 **OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication** 
 *ICRA2022* [[Paper]](https://arxiv.org/abs/2109.07644) [[Website]](https://mobility-lab.seas.ucla.edu/opv2v/) [[Code]](https://github.com/DerrickXuNu/OpenCOOD)
